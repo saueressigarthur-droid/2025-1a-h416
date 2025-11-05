@@ -1,0 +1,46 @@
+:root {
+    --azul: rgb(28, 149, 230);
+    --rosa: rgb(15, 155, 78);
+    --laranja: rgb(72, 255, 0);
+    --verde: #13b313ff;
+  }
+  
+  body {
+    background-color: var(--azul);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    margin: 20px 0;
+    text-align: center;
+    max-width: 90%;
+  }
+  
+  button {
+    background-color: var(--laranja);
+    font-size: 22px;
+    padding: 4px;
+    border-radius: 10px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 3px 0px;
+  }
+  
+  button:hover {
+    background-color: var(--verde);
+    box-shadow: none;
+    transition: 0.5s;
+  }
+  
+  .passou {
+    display: none;
+  }
+  
+  .prop_atcion {
+    display: block;
+  }
